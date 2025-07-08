@@ -3,6 +3,7 @@
 #include "Recovery/StatEditor.hpp"
 #include "Recovery/Transactions.hpp"
 #include "Recovery/DailyActivities.hpp"
+#include "Recovery/Unlocks.hpp"
 #include "game/frontend/items/Items.hpp"
 #include "game/features/recovery/SetLevelCommandItem.hpp"
 
@@ -51,5 +52,6 @@ namespace YimMenu::Submenus
 		AddCategory(BuildTransactionsMenu());
 		AddCategory(BuildHeistModifierMenu());
 		AddCategory(BuildDailyActivitiesMenu());
+		AddCategory(BuildUnlocksMenu());
 	}
 }
